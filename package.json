@@ -1,10 +1,9 @@
 {
-    "name": "webpack-test",
+    "name": "webpack-bundlers",
     "version": "1.0.0",
     "description": "",
     "private": true,
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
         "watch": "webpack --watch --mode development --config dev.webpack.config.js",
         "start": "webpack-dev-server --open --mode development --config dev.webpack.config.js",
         "build": "webpack --mode production --config prod.webpack.config.js"
